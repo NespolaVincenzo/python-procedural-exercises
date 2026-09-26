@@ -1,4 +1,4 @@
-"""Exercice : Aire d'un rectangle
+"""Exercice : Aire et périmètre d'un rectangle
 
 Demande la longueur et la largeur d'un rectangle puis affiche :
 - son aire
@@ -12,6 +12,13 @@ Objectifs :
 
 def main():
     # Écris ta solution ici.
+    length = int(input("De quelle longeur est ce rectangle ?\n"))
+    width = int(input("De quelle largeur est ce rectangle ?\n"))
+    
+    area = length * width
+    scope = (length + width) * 2
+    
+    print(f"L'aire de ce rectangle est de {area} mètre² et le périmètre est de {scope} mètre.")
     pass
 
 
