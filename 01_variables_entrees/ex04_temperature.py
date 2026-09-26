@@ -13,6 +13,9 @@ Objectifs :
 
 def main():
     # Écris ta solution ici.
+    temparetureCelsius = int(input("Quelle est la température que vous-souhaitez convertir ?\n"))
+    temperatureFahrenheit = temparetureCelsius * 9 / 5 + 32
+    print(f"{temparetureCelsius}°C convertis en fahrenheit font {temperatureFahrenheit}°F")
     pass
 
 
