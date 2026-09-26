@@ -9,6 +9,9 @@ Objectifs :
 
 def main():
     # Écris ta solution ici.
+    age = int(input("Quelle âge avez-vous ?\n"))
+    age += 5
+    print(f"Dans 5 ans, vous aurez {age} ans.")
     pass
 
 
