@@ -21,7 +21,6 @@ def main():
     print(f"La différence de c'est deux nombres est {numberOne - numberTwo}.")
     print(f"Le produit de c'est deux nombres est {numberOne * numberTwo}.")
     print(f"Le quotient de c'est deux nombres est {numberOne // numberTwo}.")
-    
     pass
 
 
